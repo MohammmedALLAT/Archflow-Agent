@@ -12,7 +12,7 @@ Archflow-Agent is an architectural workflow tool designed to convert Archicad im
 
 ## Project Structure
 
-/
+
 ├── components/ # Reusable UI components
 
 ├── services/ # Processing and logic services
@@ -59,7 +59,6 @@ Install dependencies:
 
 
 ```bash
-Copy code
 npm install
 # or
 yarn install
@@ -68,7 +67,6 @@ Run the development server:
 
 
 ```bash
-Copy code
 npm run dev
 # or
 yarn dev
@@ -77,7 +75,6 @@ Open your browser at:
 
 
 arduino
-Copy code
 http://localhost:3000
 How It Works
 The user provides an architectural image exported from Archicad. The system processes the image to extract spatial and structural data, converts this information into a 3D model, and then generates a video or animated walkthrough based on the resulting geometry. The processing logic can be adapted or extended depending on the external services or rendering tools used.
@@ -86,14 +83,12 @@ Deployment
 The project can be deployed on platforms such as Vercel or Netlify. After configuring environment variables, build the project using:
 
 ```bash
-Copy code
 npm run build
 ```
 and preview it using:
 
 
 ```bash
-Copy code
 npm run preview
 Contributing
 ```
