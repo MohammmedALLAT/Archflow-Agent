@@ -1,0 +1,5 @@
+{
+  "name": "ArchFlow AI Agent",
+  "description": "An automated architectural visualization workflow transforming concept massing into photorealistic renders and cinematic videos using Gemini and Veo.",
+  "requestFramePermissions": []
+}
