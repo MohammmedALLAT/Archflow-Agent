@@ -14,14 +14,23 @@ Archflow-Agent is an architectural workflow tool designed to convert Archicad im
 
 /
 ├── components/ # Reusable UI components
+
 ├── services/ # Processing and logic services
+
 ├── public/ # Static assets
+
 ├── App.tsx
+
 ├── index.tsx
+
 ├── metadata.json
+
 ├── package.json
+
 ├── tsconfig.json
+
 ├── vite.config.ts
+
 └── README.md
 
 
@@ -45,24 +54,27 @@ Clone the repository:
 ```bash
 git clone https://github.com/MohammmedALLAT/Archflow-Agent.git
 cd Archflow-Agent
-Install dependencies:
 ```
+Install dependencies:
+
 
 ```bash
 Copy code
 npm install
 # or
 yarn install
-Run the development server:
 ```
+Run the development server:
+
 
 ```bash
 Copy code
 npm run dev
 # or
 yarn dev
-Open your browser at:
 ```
+Open your browser at:
+
 
 arduino
 Copy code
@@ -76,15 +88,17 @@ The project can be deployed on platforms such as Vercel or Netlify. After config
 ```bash
 Copy code
 npm run build
-and preview it using:
 ```
+and preview it using:
+
 
 ```bash
 Copy code
 npm run preview
 Contributing
-Contributions are welcome. You can fork the repository, create a new feature branch, commit your changes, and submit a pull request for review.
 ```
+Contributions are welcome. You can fork the repository, create a new feature branch, commit your changes, and submit a pull request for review.
+
 
 License
 No license has been specified yet. Add a license file if you plan to make the project open source.
